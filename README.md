@@ -5,7 +5,6 @@ test font-family
 |  | Mac Chrome | Mac Firefox | Mac Safari | Win Chrome | Win Firefox | Win IE11 | Win Edge | iOS Safari | android Chrome |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | sans-serif | Mac Chrome | Mac Firefox | Mac Safari | Win Chrome | Win Firefox | Win IE11 | Win Edge | iOS Safari | android Chrome |
-| sans-serif | Mac Chrome | Mac Firefox | Mac Safari | Win Chrome | Win Firefox | Win IE11 | Win Edge | iOS Safari | android Chrome |
 | serif | Mac Chrome | Mac Firefox | Mac Safari | Win Chrome | Win Firefox | Win IE11 | Win Edge | iOS Safari | android Chrome |
 | Meiryo | Mac Chrome | Mac Firefox | Mac Safari | Win Chrome | Win Firefox | Win IE11 | Win Edge | iOS Safari | android Chrome |
 | "メイリオ" | Mac Chrome | Mac Firefox | Mac Safari | Win Chrome | Win Firefox | Win IE11 | Win Edge | iOS Safari | android Chrome |
