@@ -4,13 +4,13 @@ test font-family
 
 |  | Mac Chrome | Mac Firefox | Mac Safari | Win Chrome | Win Firefox | Win IE11 | Win Edge | iOS Safari | android Chrome |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| sans-serif | ○ | ○ | ○ | Win Chrome | Win Firefox | Win IE11 | Win Edge | iOS Safari | android Chrome |
-| serif | ○ | ○ | ○ | Win Chrome | Win Firefox | Win IE11 | Win Edge | iOS Safari | android Chrome |
-| Meiryo | ○ | ○ | ☓ | Win Chrome | Win Firefox | Win IE11 | Win Edge | iOS Safari | android Chrome |
-| "メイリオ" | ☓ | ○ | ☓ | Win Chrome | Win Firefox | Win IE11 | Win Edge | iOS Safari | android Chrome |
-| 'Hiragino Kaku Gothic ProN' | ○ | ○ | ○ | Win Chrome | Win Firefox | Win IE11 | Win Edge | iOS Safari | android Chrome |
-| 'ヒラギノ角ゴ ProN W3' | ☓ | ○ | ○ | Win Chrome | Win Firefox | Win IE11 | Win Edge | iOS Safari | android Chrome |
-| "メイリオ","Hiragino Kaku Gothic ProN",Meiryo,"ヒラギノ角ゴ Pro W3","MS PGothic","MS UI Gothic",Helvetica,Arial,sans-serif | ○ | ○ | ○ | Win Chrome | Win Firefox | Win IE11 | Win Edge | iOS Safari | android Chrome |
+| sans-serif | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ☓ |
+| serif | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ☓ |
+| Meiryo | ○ | ○ | ☓ | ☓ | ☓ | ☓ | ☓ | ☓ | ☓ |
+| "メイリオ" | ☓ | ○ | ☓ | ☓ | ☓ | ☓ | ☓ | ☓ | ☓ |
+| 'Hiragino Kaku Gothic ProN' | ○ | ○ | ○ | ☓ | ☓ | ☓ | ☓ | ○ | ☓ |
+| 'ヒラギノ角ゴ ProN W3' | ☓ | ○ | ○ | ☓ | ☓ | ☓ | ☓ | ○ | ☓ |
+| "メイリオ","Hiragino Kaku Gothic ProN",Meiryo,"ヒラギノ角ゴ Pro W3","MS PGothic","MS UI Gothic",Helvetica,Arial,sans-serif | Hiragino Kaku Gothic ProN | メイリオ | Hiragino Kaku Gothic ProN | MS PGothic | MS PGothic | MS PGothic | MS PGothic | Hiragino Kaku Gothic ProN | Helvetica |
 
 
 
