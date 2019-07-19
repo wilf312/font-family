@@ -15,20 +15,26 @@
     <template>
       <div v-for="(fontFamily, index) in fontFamilyList" key="index" :style="{'font-family': fontFamily.name}">
 
-        <h2>{{ fontFamily.label }}</h2>
         <p>{{ dummyText }}</p>
+        <h2>{{ fontFamily.label }}</h2>
       </div>
     </template>
   </div>
   
   <style>
+    #app {
+      display: flex;
+    }
     body {
-      font-family: serif;
+      /* font-family: serif; */
     }
     h2 {
-      font-size: 42px;
+      font-size: 20px;
     }
     p {
+      padding: 10px;
+      width: 400px;
+      box-sizing: border-box;
       font-size: 30px;
     }
   </style>
@@ -72,8 +78,8 @@
             
           },
           {
-            name: '"メイリオ","Hiragino Kaku Gothic Pro",Meiryo,"ヒラギノ角ゴ Pro W3","MS PGothic","MS UI Gothic",Helvetica,Arial,sans-serif',
-            label: '"メイリオ","Hiragino Kaku Gothic Pro",Meiryo,"ヒラギノ角ゴ Pro W3","MS PGothic","MS UI Gothic",Helvetica,Arial,sans-serif 入り乱れたもの',
+            name: '"メイリオ","Hiragino Kaku Gothic ProN",Meiryo,"ヒラギノ角ゴ Pro W3","MS PGothic","MS UI Gothic",Helvetica,Arial,sans-serif',
+            label: '"メイリオ","Hiragino Kaku Gothic ProN",Meiryo,"ヒラギノ角ゴ Pro W3","MS PGothic","MS UI Gothic",Helvetica,Arial,sans-serif 入り乱れたもの',
             
           },
 
