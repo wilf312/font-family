@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+</head>
+<body>
+  <h1>font-family test</h1>
+  
+  
+  <div class="aaaa">
+    
+  </div>
+  
+  <div id="app">
+    <template>
+      <div v-for="(fontFamily, index) in fontFamilyList" key="index" :style="{'font-family': fontFamily.name}">
+
+        <h2>{{ fontFamily.label }}</h2>
+        <p>{{ dummyText }}</p>
+      </div>
+    </template>
+  </div>
+  
+  <style>
+    body {
+      font-family: serif;
+    }
+    h2 {
+      font-size: 42px;
+    }
+    p {
+      font-size: 30px;
+    }
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js"></script>
+  <script>
+    const dummyText = 'あのイーハトーヴォのすきとおった風、夏でも底に冷たさをもつ青いそら、うつくしい森で飾られたモリーオ市、郊外のぎらぎらひかる草の波。'
+
+    const app = new Vue({
+      el: '#app',
+      data: {
+        dummyText,
+        fontFamilyList: [
+          {
+            name: 'san-serif',
+            label: 'san-serif',
+            
+          },
+          {
+            name: 'serif',
+            label: 'serif',
+            
+          },
+          {
+            name: "'Hiragino Kaku Gothic ProN'",
+            label: "'Hiragino Kaku Gothic ProN' '英語指定'",
+            
+          },
+          {
+            name: "'ヒラギノ角ゴ ProN W3'",
+            label: "'ヒラギノ角ゴ ProN W3' '英語指定'",
+            
+          },
+        ]
+      }
+    })
+  </script>
+
+
+</body>
+</html>
+
