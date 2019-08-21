@@ -4,6 +4,8 @@ font-family
 https://wilf312.github.io/font-family/ に行くといろんなフォント指定を確認することが出来、
 ブラウザ上でどのフォントをレンダリングしているかも確認することができます。
 
+thank great npm module https://www.npmjs.com/package/detect-font
+
 
 |  | Mac Chrome | Mac Firefox | Mac Safari | Win Chrome | Win Firefox | Win IE11 | Win Edge | iOS Safari | android Chrome |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
