@@ -1,5 +1,8 @@
-# font-family
-test font-family
+# font-family list
+font-family
+
+https://wilf312.github.io/font-family/ に行くといろんなフォント指定を確認することが出来、
+ブラウザ上でどのフォントをレンダリングしているかも確認することができます。
 
 
 |  | Mac Chrome | Mac Firefox | Mac Safari | Win Chrome | Win Firefox | Win IE11 | Win Edge | iOS Safari | android Chrome |
